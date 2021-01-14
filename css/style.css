@@ -1,0 +1,129 @@
+/* Common CSS starts here*/
+
+body h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+    color: #2A1E59;
+}
+body p{
+    font-family: 'Roboto', sans-serif;
+}
+.btn_color{
+    background-color: #2A1E59;
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+.price_color{
+    color: #76C27E;
+}
+/* Common CSS ends here */
+
+/* Banner starts here */
+#banner{
+    background: #FFFFF4;
+    padding-bottom: 80px;
+}
+#banner img{
+    width: 300px;
+}
+
+.menubar{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 600;
+}
+.left_content h1{
+    font-weight: 700;
+}
+/* Banner ends here */
+
+/* Casual bag CSS starts */
+#casual{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.casual_items{
+    background: rgba(211, 211, 211, 0.3);
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px 20px 30px 20px;
+}
+.casual_main_item{
+    border: none;
+    border-radius: 15px;
+}
+/* Casual bag CSS ends */
+
+/* Travel bag CSS starts */
+#travel{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#subscribe{
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.sub{
+    height: 300px;
+    background: #FFFFF4;
+    border-radius: 12px;
+    padding: 15px;
+}
+/* Travel bag CSS ends */
+
+
+/* Counter CSS starts */
+#counter{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.counter_img img{
+    width: 100%;
+}
+
+.icon_img{
+    width: 70px;
+}
+.counter1{
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.counter_content{
+    margin-right: 25px;
+}
+/* Counter CSS ends */
+
+
+/* Footer CSS starts here */
+div.social_media ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+/* .social_media ul li:hover{
+    background: #000;
+} */
+
+div.social_media ul li a {
+    border-radius: 50%;
+    outline: none;
+    text-align: center;
+    border: 1px solid white;
+    background: transparent;
+    color: #2A1E59;
+    transition: all linear .5s;
+}
+div.social_media ul li a:hover{
+    background: #76C27E;
+}
+
+div.social_media ul li a span{
+    font-size: 15px;
+    transition: all linear .5s;
+}
+div.social_media ul li a:hover span{
+    color: #FFFFF4;
+}
+
+
+/* Footer CSS ends here */
