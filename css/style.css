@@ -130,3 +130,9 @@ div.social_media ul li a:hover span{
 
 
 /* Footer CSS ends here */
+@media (max-width: 668px){
+    #counter .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
